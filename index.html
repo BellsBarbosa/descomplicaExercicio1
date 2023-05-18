@@ -108,7 +108,7 @@
                         <p class="card-text">Localizado no bairro da Barra, o Farol da Barra é um dos pontos turísticos
                             mais conhecidos e amados da cidade.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">Reservar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
                     <div class="card-footer">
                         <medium class="text-muted">Pacote de Casal</medium>
                     </div>
@@ -122,7 +122,7 @@
                         <p class="card-text">O Elevador Lacerda interliga a Cidade Alta e Cidade baixa, e em destaque
                             outro ponto turístico importante, o Mercado Modelo.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">Reservar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
                     <div class="card-footer">
                         <medium class="text-muted">Pacote Família</medium>
                     </div>
@@ -136,7 +136,7 @@
                         <p class="card-text">As ladeiras de pedra do Pelourinho possuem grande importância na história
                             baiana.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">Reservar</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
                     <div class="card-footer">
                         <medium class="text-muted">Pacote Solteiro</medium>
                     </div>
@@ -230,5 +230,23 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
+
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">Suas compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Produto adicionado ao carrinho.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <button type="button" class="btn btn-success">Finalizar a compra</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </html>
